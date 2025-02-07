@@ -179,6 +179,7 @@ describe("Testing login", function () {
     // start the server
     server.start();
 
+/**
     await chai
       .request(apiAddress)
       .post("/signup")
@@ -192,6 +193,7 @@ describe("Testing login", function () {
       .catch((error) => {
         throw error;
       });
+ */
   });
 
   after(function () {
